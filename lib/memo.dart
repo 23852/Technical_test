@@ -33,7 +33,7 @@ class DisplayMemo extends StatelessWidget {
               }
               return Padding(
                   padding: const EdgeInsets.only(left: 3.0, right: 3.0),
-                  child: displayitem.display[index].categoryName == "Memo"
+                  child: memo == displayitem.display[index].categoryName
                       ? Container(
                           width: double.infinity,
                           height: 250,
